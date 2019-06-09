@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/muzzlemooninn/static/css/main.9c162eca.chunk.css",
+    "main.js": "/muzzlemooninn/static/js/main.a57b9513.chunk.js",
+    "main.js.map": "/muzzlemooninn/static/js/main.a57b9513.chunk.js.map",
+    "runtime~main.js": "/muzzlemooninn/static/js/runtime~main.cb49a90c.js",
+    "runtime~main.js.map": "/muzzlemooninn/static/js/runtime~main.cb49a90c.js.map",
+    "static/js/2.1835c9c3.chunk.js": "/muzzlemooninn/static/js/2.1835c9c3.chunk.js",
+    "static/js/2.1835c9c3.chunk.js.map": "/muzzlemooninn/static/js/2.1835c9c3.chunk.js.map",
+    "static/css/3.9190c978.chunk.css": "/muzzlemooninn/static/css/3.9190c978.chunk.css",
+    "static/js/3.1d5e3604.chunk.js": "/muzzlemooninn/static/js/3.1d5e3604.chunk.js",
+    "static/js/3.1d5e3604.chunk.js.map": "/muzzlemooninn/static/js/3.1d5e3604.chunk.js.map",
+    "index.html": "/muzzlemooninn/index.html",
+    "precache-manifest.dc660daf51a6cf4dd69fa0581f2b6576.js": "/muzzlemooninn/precache-manifest.dc660daf51a6cf4dd69fa0581f2b6576.js",
+    "service-worker.js": "/muzzlemooninn/service-worker.js",
+    "static/css/3.9190c978.chunk.css.map": "/muzzlemooninn/static/css/3.9190c978.chunk.css.map",
+    "static/css/main.9c162eca.chunk.css.map": "/muzzlemooninn/static/css/main.9c162eca.chunk.css.map",
+    "static/media/logo.svg": "/muzzlemooninn/static/media/logo.f0fd1f4c.svg"
+  }
+}
