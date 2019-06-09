@@ -1,0 +1,57 @@
+.button {
+  display: inline-block;
+  border-radius: 9999px;
+  background-color: white;
+  border: 3px solid white;
+  color: #1f2435;
+  padding: 0 55px;
+  height: 62px;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+
+  @media screen and (max-width: 1600px) {
+    padding: 0 30px;
+    height: 55px;
+    font-size: 18px;
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 670px) {
+    padding: 0 20px;
+    height: 45px;
+    font-size: 14px;
+    margin-right: 5px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &-alt {
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    color: white;
+    width: 62px;
+    padding: 0;
+
+    @media screen and (max-width: 1600px) {
+      width: 55px;
+    }
+
+    @media screen and (max-width: 670px) {
+      width: 45px;
+    }
+  }
+}

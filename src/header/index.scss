@@ -1,0 +1,49 @@
+.header {
+  height: 10vw;
+  max-height: 180px;
+  min-height: 80px;
+
+  @media screen and (max-width: 1600px) {
+    height: 9vw;
+    max-height: auto;
+    min-height: auto;
+  }
+
+  @media screen and (max-width: 670px) {
+    height: 12vh;
+    margin-bottom: 10px;
+  }
+
+  &-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    @media screen and (max-width: 670px) {
+      margin-left: 5%;
+      width: 95%;
+    }
+  }
+
+  &-logo {
+    height: 90%;
+    max-height: 100px;
+
+    @media screen and (max-width: 1600px) {
+      height: 60%;
+    }
+
+    @media screen and (max-width: 670px) {
+      height: 70%;
+    }
+  }
+
+  .cta-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+}

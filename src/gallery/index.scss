@@ -1,0 +1,56 @@
+.gallery {
+  position: absolute;
+  text-align: left;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 2vh 0;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  @media screen and (max-width: 670px) {
+    padding: 1vh 0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    height: 3px;
+  }
+  /* Optional: show position indicator in red */
+  &::-webkit-scrollbar-thumb {
+      background: #d1de94;
+  }
+
+  .tile {
+    position: relative;
+    display: inline-block;
+    height: 25vh;
+    margin-left: 10px;
+
+    @media screen and (max-width: 670px) {
+      margin-left: 5px;
+    }
+    
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type::after {
+      display: inline-block;
+      width: 5vw;
+      content: '';
+    }
+
+    img {
+      position: relative;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 670px) {
+      height: 18vh;
+    }
+  }
+}

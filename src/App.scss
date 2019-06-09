@@ -1,0 +1,96 @@
+html,
+.App {
+  background-color: #1f2435;
+  color: white;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  // height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-size: 114px;
+  font-weight: normal;
+  line-height: 1.14;
+  margin-bottom: 3vh;
+
+  @media screen and (max-width: 1600px) {
+    font-size: 60px;
+  }
+
+  @media screen and (max-width: 670px) {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+
+  @media screen and (max-width: 1600px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 670px) {
+    font-size: 16px;
+  }
+}
+
+h1,
+.button {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0 0 3vh 0;
+}
+
+
+p {
+  font-size: 19px;
+  line-height: 1.89;
+  font-weight: 400;
+
+  @media screen and (max-width: 1600px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 670px) {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
