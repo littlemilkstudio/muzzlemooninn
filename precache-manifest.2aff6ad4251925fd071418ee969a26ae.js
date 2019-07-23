@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0200184829c8e6ddc4eac8396d28cdaa",
+    "revision": "22cf1348b8a5f18fbc8f392371a537ed",
     "url": "/muzzlemooninn/index.html"
   },
   {
-    "revision": "a4ee2ad583d30266077c",
-    "url": "/muzzlemooninn/static/css/3.9190c978.chunk.css"
+    "revision": "a44d0ca18671851210df",
+    "url": "/muzzlemooninn/static/css/3.38b236b9.chunk.css"
   },
   {
-    "revision": "72e0237256ecea64b53f",
-    "url": "/muzzlemooninn/static/css/main.9c162eca.chunk.css"
+    "revision": "1ec0797f6e53fe99cea1",
+    "url": "/muzzlemooninn/static/css/main.fc4ed7b7.chunk.css"
   },
   {
     "revision": "baa3fb71363df8e53cf5",
     "url": "/muzzlemooninn/static/js/2.1835c9c3.chunk.js"
   },
   {
-    "revision": "a4ee2ad583d30266077c",
+    "revision": "a44d0ca18671851210df",
     "url": "/muzzlemooninn/static/js/3.1d5e3604.chunk.js"
   },
   {
-    "revision": "72e0237256ecea64b53f",
+    "revision": "1ec0797f6e53fe99cea1",
     "url": "/muzzlemooninn/static/js/main.a57b9513.chunk.js"
   },
   {
-    "revision": "5627f4ab5de6077f9c40",
-    "url": "/muzzlemooninn/static/js/runtime~main.cb49a90c.js"
+    "revision": "151a3b6a3cd49f12cec2",
+    "url": "/muzzlemooninn/static/js/runtime~main.a6fe6507.js"
   },
   {
     "revision": "f0fd1f4cacb7e8570e8d6007e588988f",
